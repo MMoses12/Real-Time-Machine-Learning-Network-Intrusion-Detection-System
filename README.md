@@ -98,8 +98,6 @@ proto_encoder.pkl
 state_encoder.pkl  
 important_features.pkl
 
----
-
 ### 5.2 Classifier Training
 
 To train the LightGBM classifier on labeled attack categories, execute:
@@ -109,8 +107,6 @@ python3 classifier.py
 This script will save the model and generate performance plots. Saved file:
 
 lightgbm_ids_model_no_smote.joblib
-
----
 
 ### 5.3 Real-Time Detection
 
@@ -152,10 +148,10 @@ SYN_WINDOW = 1.0                # Time window in seconds
 
 ## 8. Sample Output Visualizations
 
-images/image1.png  
-images/image2.png  
-images/image3.png  
-images/image4.png  
+![](images/image1.png)
+![](images/image2.png)
+![](images/image3.png)
+![](images/image4.png)
 
 ---
 
