@@ -54,8 +54,8 @@ The architecture consists of three major components:
 
 The project uses the **UNSW-NB15** dataset, which contains labeled normal and attack traffic. Ensure the following CSV files are placed under the directory:
 
-Security AI/CSV Files/Training and Testing Sets/
-├── UNSW_NB15_training-set.csv
+Security AI/CSV Files/Training and Testing Sets/ <br/>
+├── UNSW_NB15_training-set.csv <br/>
 ├── UNSW_NB15_testing-set.csv
 
 
