@@ -109,7 +109,7 @@ python3 classifier.py
 
 This script will save the model and generate performance plots. Saved file:
 
-lightgbm_ids_model_no_smote.joblib
+lightgbm_ids_model.joblib
 
 ### 5.3 Real-Time Detection
 

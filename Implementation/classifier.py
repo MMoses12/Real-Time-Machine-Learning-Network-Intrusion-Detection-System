@@ -65,7 +65,7 @@ model = lgb.LGBMClassifier(
 model.fit(X_train, y_train)
 
 # Save model (optional)
-joblib.dump(model, "lightgbm_ids_model_no_smote.joblib")
+joblib.dump(model, "lightgbm_ids_model.joblib")
 
 # Predict and evaluate
 y_pred = model.predict(X_val)
